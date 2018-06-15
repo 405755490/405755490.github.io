@@ -6,6 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+
 title: Undefined
 subtitle: 习惯改变命运，细节铸就成功
 name: Undefined 
@@ -151,10 +152,9 @@ gitment:
     owner: 405755490
     repo: blog-comments
     oauth:
-
 #yq698.top
-   client_id: 72d6d03ebc70eab2f22c
-   client_secret: a617b208e36d630017102249198699630a6d415b
+        client_id: 72d6d03ebc70eab2f22c
+        client_secret: a617b208e36d630017102249198699630a6d415b
 
 #http://47.98.160.125:10203
 #    client_id: 9845348ac0b81dbd480f
