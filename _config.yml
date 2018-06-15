@@ -18,9 +18,9 @@ favicon: favicon.png
 
 repository: 405755490/405755490.github.io
 github_url: https://github.com/405755490
-#cnblog_url: https://www.cnblogs.com/Undefined2016
+cnblog_url: https://www.cnblogs.com/Undefined2016
 url: http://47.98.160.125:10203
-#enforce_ssl: ityouknow.com
+#enforce_ssl: 
 
 
 ## Gem
@@ -117,10 +117,10 @@ classes:
 # ---------------- #
 #       RSS        #
 # ---------------- #
-#subscribe_rss: /feed.xml
+subscribe_rss: /feed.xml
 
 # Sidebar to show popular repo
-#side_bar_repo_limit: 6 # Number of repos to show
+side_bar_repo_limit: 6 # Number of repos to show
 
 # Google Analytics
 # analytics :
@@ -144,20 +144,33 @@ comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
-disqus:
-    username: ityouknow
+#disqus:
+#    username: ityouknow
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: ityouknow
+    owner: 405755490
     repo: blog-comments
     oauth:
-        client_id: 61bfc53d957e74e78f8f
-        client_secret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+
+#yq698.top
+   client_id: 72d6d03ebc70eab2f22c
+   client_secret: a617b208e36d630017102249198699630a6d415b
+
+#http://47.98.160.125:10203
+#    client_id: 9845348ac0b81dbd480f
+#   client_secret: 67b5c492141da20bf7817b74447c96dce970f71c
+
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: ityouknow
+    owner: 405755490
     repo: blog-comments
-    clientID: 61bfc53d957e74e78f8f
-    clientSecret: 31c61e66cdcc9ada8db2267ee779d0bdafac434c
+#http://47.98.160.125:10203
+#    clientID: 9845348ac0b81dbd480f
+#    clientSecret: 67b5c492141da20bf7817b74447c96dce970f71c
+
+#yq698.top
+    clientSecret: a617b208e36d630017102249198699630a6d415b
+    clientID: 72d6d03ebc70eab2f22c
+
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true

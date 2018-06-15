@@ -36,6 +36,7 @@
   {% endif %}
 
   {% case site.comments_provider %}
+  <!--
     {% when 'disqus' %}
       {% if site.disqus and site.disqus.username %}
         {% assign load_disqus = true %}
@@ -63,6 +64,7 @@
           <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
         {% endif %}
       {% endif %}
+      -->
     {% when 'gitment' %}
         <div id="container"></div>
         <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
